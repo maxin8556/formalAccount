@@ -36,6 +36,8 @@ class MattersSpider(object):
         self.webSource = 'matters'
         # 登录Url
         self.loginUrl = "https://www.matters.news"
+
+
         # self.passWord = "bblove123"
         self.passWord = "maxin123"
 
