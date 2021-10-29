@@ -1,0 +1,104 @@
+{
+    "cookies": [
+        {
+            "domain": "forum.yorkbbs.ca",
+            "expiry": 1637814190,
+            "httpOnly": false,
+            "name": "idx",
+            "path": "/",
+            "secure": false,
+            "value": "214"
+        },
+        {
+            "domain": "forum.yorkbbs.ca",
+            "expiry": 1637817785,
+            "httpOnly": false,
+            "name": "_dolike",
+            "path": "/",
+            "secure": false,
+            "value": "1064358"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "httpOnly": false,
+            "name": "dnt",
+            "path": "/",
+            "secure": false,
+            "value": "userid=1064358&password=3FllhNjO%2fzcBQvYnP90k1A4BqNrpRfgKmREcCaT9r7itIuwAKx7tfA%3d%3d&tpp=0&ppp=0&pmsound=0&invisible=0&referer=index.aspx&sigstatus=0&expires=-1"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "httpOnly": false,
+            "name": "ForumByUId_Json_1064358",
+            "path": "/",
+            "secure": false,
+            "value": "%5b%5d"
+        },
+        {
+            "domain": "forum.yorkbbs.ca",
+            "expiry": 1635222369,
+            "httpOnly": false,
+            "name": "onlineusercount",
+            "path": "/",
+            "secure": false,
+            "value": "1255"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "expiry": 1635222229,
+            "httpOnly": false,
+            "name": "_dc_gtm_UA-2881509-1",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "expiry": 1635308584,
+            "httpOnly": false,
+            "name": "_gid",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.645744804.1635222169"
+        },
+        {
+            "domain": "forum.yorkbbs.ca",
+            "httpOnly": false,
+            "name": "lastupdatetime",
+            "path": "/",
+            "secure": false,
+            "value": "6950415"
+        },
+        {
+            "domain": "forum.yorkbbs.ca",
+            "expiry": 1695222125,
+            "httpOnly": false,
+            "name": "dnttemplateid_2_0_1214",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "expiry": 1635222209,
+            "httpOnly": false,
+            "name": "_gali",
+            "path": "/",
+            "secure": false,
+            "value": "login_form"
+        },
+        {
+            "domain": ".yorkbbs.ca",
+            "expiry": 1698294184,
+            "httpOnly": false,
+            "name": "_ga",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.68371547.1635222169"
+        }
+    ],
+    "enable": true,
+    "name": "BeataBeckyy",
+    "password": "bblove123",
+    "update_time": "2021-10-26 12:23:27"
+}

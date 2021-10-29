@@ -1,0 +1,280 @@
+[2021-10-28 20:49:09  INFO      RedditSpiderTest   141]: 查网络环境……
+[2021-10-28 20:49:09  INFO      RedditSpiderTest   144]: 存在可用僵尸账号，账号：Danny748
+[2021-10-28 20:49:09  INFO      specificProcess  1050]: 启动谷歌浏览器
+[2021-10-28 20:49:09  INFO      specificProcess  1051]: nt
+[2021-10-28 20:49:11  INFO      specificProcess  1087]: 谷歌浏览器启动完成！
+[2021-10-28 20:49:32  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 20:49:44  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 20:49:44  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：Danny748
+[2021-10-28 20:49:44  INFO      RedditSpiderTest   187]: 开始论坛发帖，Homepage:https://www.reddit.com/submit
+[2021-10-28 20:49:47  INFO      RedditSpiderTest   115]: 开始论坛发帖，主页URL：https://www.reddit.com/submit
+[2021-10-28 20:51:53  INFO      TumblrSpiderTest   140]: 查网络环境……
+[2021-10-28 20:51:53  INFO      TumblrSpiderTest   143]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 20:51:53  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 20:51:53  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 20:51:55  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 20:52:06  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 20:52:19  INFO      FBSimulateProcess   513]: cookie失效,需要重新登录
+[2021-10-28 20:52:19  INFO      FBSimulateProcess   514]: 账号处于离线状态，账户：evandean83612@gmail.com
+[2021-10-28 20:52:23  INFO      FBSimulateProcess   344]: 开始登录
+[2021-10-28 20:52:23  INFO      FBSimulateProcess   349]: 开始输入账号=====
+[2021-10-28 20:52:26  INFO      FBSimulateProcess   377]: 账号输入完成=====
+[2021-10-28 20:52:26  INFO      FBSimulateProcess   385]: 开始输入密码=====
+[2021-10-28 20:52:29  INFO      FBSimulateProcess   416]: 密码输入完成=====
+[2021-10-28 20:52:34  INFO      FBSimulateProcess   462]: 账号登录完成，用户=【evandean83612@gmail.com】
+[2021-10-28 20:52:59  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 20:52:59  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 20:52:59  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 20:52:59  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 20:53:02  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 20:53:05  INFO      FBSimulateProcess   518]: 没有Cookie文件~~
+[2021-10-28 20:53:55  ERROR     specificProcess   898]: 账号登录异常，异常信息：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.71)
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 876, in login
+    password_input = WebDriverWait(self.driver, 20).until(lambda driver:
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 877, in <lambda>
+    driver.find_element_by_name(password_element))
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.71)
+
+[2021-10-28 20:54:13  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 20:54:13  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 20:54:13  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 20:54:13  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 20:54:15  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 20:54:30  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 20:54:41  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 20:54:41  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：evandean83612@gmail.com
+[2021-10-28 20:54:41  INFO      BloggerTestSpider   190]: 开始论坛发帖，Homepage:https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 20:54:43  INFO      BloggerTestSpider   114]: 开始论坛发帖，主页URL：https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 21:53:46  INFO      MattersSpiderTest   139]: 查网络环境……
+[2021-10-28 21:53:46  INFO      MattersSpiderTest   142]: 存在可用僵尸账号，账号：maxin8556@163.com
+[2021-10-28 21:53:46  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 21:53:46  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 21:53:49  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 21:54:13  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 21:54:13  INFO      FBSimulateProcess   513]: cookie失效,需要重新登录
+[2021-10-28 21:54:13  INFO      FBSimulateProcess   514]: 账号处于离线状态，账户：maxin8556@163.com
+[2021-10-28 21:54:29  INFO      MattersSpiderTest   139]: 查网络环境……
+[2021-10-28 21:54:29  INFO      MattersSpiderTest   142]: 存在可用僵尸账号，账号：maxin8556@163.com
+[2021-10-28 21:54:29  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 21:54:29  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 21:54:32  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 21:54:46  INFO      FBSimulateProcess   513]: cookie失效,需要重新登录
+[2021-10-28 21:54:46  INFO      FBSimulateProcess   514]: 账号处于离线状态，账户：maxin8556@163.com
+[2021-10-28 21:54:51  ERROR     specificProcess   754]: 账号登录异常，异常信息：Message: chrome not reachable
+  (Session info: chrome=94.0.4606.71)
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 708, in login
+    self.clear_cookies()
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\FBSimulateProcess.py", line 313, in clear_cookies
+    self.driver.delete_all_cookies()
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 878, in delete_all_cookies
+    self.execute(Command.DELETE_ALL_COOKIES)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=94.0.4606.71)
+
+[2021-10-28 21:54:52  ERROR     MattersSpiderTest   103]: 浏览器账号登陆状态检测异常，异常信息：'Matters' object has no attribute '_Matters__close_browser'
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 708, in login
+    self.clear_cookies()
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\FBSimulateProcess.py", line 313, in clear_cookies
+    self.driver.delete_all_cookies()
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 878, in delete_all_cookies
+    self.execute(Command.DELETE_ALL_COOKIES)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=94.0.4606.71)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/MaXin-Study/2021-10-3/FinalVersionAccountForum/spiderTest/MattersSpiderTest.py", line 60, in spider_basic_state
+    login_element,self.webSource)
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 755, in login
+    self.__close_browser()
+AttributeError: 'Matters' object has no attribute '_Matters__close_browser'
+[2021-10-28 21:54:52  INFO      MattersSpiderTest   187]: 开始论坛发帖，Homepage:
+[2021-10-28 21:54:55  INFO      MattersSpiderTest   112]: 开始论坛发帖，主页URL：
+[2021-10-28 21:54:58  INFO      MattersSpiderTest   139]: 查网络环境……
+[2021-10-28 21:54:58  INFO      MattersSpiderTest   142]: 存在可用僵尸账号，账号：maxin8556@163.com
+[2021-10-28 21:54:58  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 21:54:58  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 21:55:00  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 21:55:24  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 21:55:24  INFO      FBSimulateProcess   513]: cookie失效,需要重新登录
+[2021-10-28 21:55:24  INFO      FBSimulateProcess   514]: 账号处于离线状态，账户：maxin8556@163.com
+[2021-10-28 21:55:45  INFO      specificProcess   710]: 开始登录
+[2021-10-28 21:56:07  ERROR     specificProcess   754]: 账号登录异常，异常信息：Message: 
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 714, in login
+    go_Login_click = WebDriverWait(self.driver, 20).until(lambda driver:
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2021-10-28 21:56:09  ERROR     MattersSpiderTest   103]: 浏览器账号登陆状态检测异常，异常信息：'Matters' object has no attribute '_Matters__close_browser'
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 714, in login
+    go_Login_click = WebDriverWait(self.driver, 20).until(lambda driver:
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/MaXin-Study/2021-10-3/FinalVersionAccountForum/spiderTest/MattersSpiderTest.py", line 60, in spider_basic_state
+    login_element,self.webSource)
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 755, in login
+    self.__close_browser()
+AttributeError: 'Matters' object has no attribute '_Matters__close_browser'
+[2021-10-28 21:56:09  INFO      MattersSpiderTest   187]: 开始论坛发帖，Homepage:
+[2021-10-28 21:56:11  INFO      MattersSpiderTest   112]: 开始论坛发帖，主页URL：
+[2021-10-28 21:56:16  ERROR     specificProcess   837]: homepage 状态检测异常，异常信息：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/main/nav/section/ul/li[5]/button"}
+  (Session info: chrome=94.0.4606.71)
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 764, in open_link
+    self.driver.find_element_by_xpath(MattersElement.matters_post_element['goPost_xpath']).click()
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/main/nav/section/ul/li[5]/button"}
+  (Session info: chrome=94.0.4606.71)
+
+[2021-10-28 21:56:16  INFO      MattersSpiderTest   117]: 帖子主页进入成功，主页：！
+[2021-10-28 21:56:16  INFO      FBSimulateProcess   125]: 关闭浏览器!
+[2021-10-28 21:56:23  INFO      MattersSpiderTest   191]: 论坛发帖最后状态是state:RetCode.OTHER_ERROR
+[2021-10-28 21:56:23  INFO      MattersSpiderTest   201]: 论坛发帖异常失败
+[2021-10-28 22:02:33  INFO      MattersSpiderTest   139]: 查网络环境……
+[2021-10-28 22:02:33  INFO      MattersSpiderTest   142]: 存在可用僵尸账号，账号：maxin8556@163.com
+[2021-10-28 22:02:33  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:02:33  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:02:35  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:03:51  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 22:07:13  INFO      MattersSpiderTest   139]: 查网络环境……
+[2021-10-28 22:07:13  INFO      MattersSpiderTest   142]: 存在可用僵尸账号，账号：maxin8556@163.com
+[2021-10-28 22:07:13  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:07:13  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:07:15  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:07:18  INFO      FBSimulateProcess   518]: 没有Cookie文件~~
+[2021-10-28 22:07:36  INFO      specificProcess   710]: 开始登录
+[2021-10-28 22:08:19  INFO      specificProcess   749]: 账号登录完成，用户=【maxin8556@163.com】
+[2021-10-28 22:08:29  INFO      FBSimulateProcess   534]: 检测go_post开始=========================
+[2021-10-28 22:08:32  INFO      FBSimulateProcess   551]: 检测go_post成功=========================
+[2021-10-28 22:08:32  INFO      FBSimulateProcess   552]: 账号处于登录状态，账户：maxin8556@163.com
+[2021-10-28 22:09:31  INFO      MattersSpiderTest    79]: 进入登录状态,cookie已经获取
+[2021-10-28 22:09:31  INFO      MattersSpiderTest   187]: 开始论坛发帖，Homepage:
+[2021-10-28 22:09:34  INFO      MattersSpiderTest   112]: 开始论坛发帖，主页URL：
+[2021-10-28 22:09:52  INFO      specificProcess   782]: 标题输入完成
+[2021-10-28 22:09:55  INFO      specificProcess   800]: 标题输入完成
+[2021-10-28 22:09:57  INFO      specificProcess   800]: 标题输入完成
+[2021-10-28 22:09:59  INFO      specificProcess   810]: 内容输入完成
+[2021-10-28 22:10:09  INFO      specificProcess   827]: 当前页面https://www.matters.news/@maxin8556/%E5%9C%A3%E4%BA%BA%E8%AF%AD%E5%BD%95-%E4%B8%80-bafyreicx7vpflbhevvp5ppuhsybc3hkchdctlaf5vpbfnu7w2y5w272f24
+[2021-10-28 22:10:09  INFO      specificProcess   829]: 账号发帖完成
+[2021-10-28 22:10:09  INFO      MattersSpiderTest   117]: 帖子主页进入成功，主页：！
+[2021-10-28 22:10:09  INFO      FBSimulateProcess   125]: 关闭浏览器!
+[2021-10-28 22:10:16  INFO      MattersSpiderTest   191]: 论坛发帖最后状态是state:RetCode.SUCCESS
+[2021-10-28 22:10:16  INFO      MattersSpiderTest   193]: 论坛发帖成功
+[2021-10-28 22:12:21  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 22:12:21  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 22:12:21  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:12:21  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:12:23  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:12:31  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 22:12:42  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 22:12:42  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：evandean83612@gmail.com
+[2021-10-28 22:12:42  INFO      BloggerTestSpider   190]: 开始论坛发帖，Homepage:https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:12:44  INFO      BloggerTestSpider   114]: 开始论坛发帖，主页URL：https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:12:59  INFO      specificProcess   932]: 标题输入完成
+[2021-10-28 22:13:02  INFO      specificProcess   944]: 内容输入完成
+[2021-10-28 22:13:18  ERROR     specificProcess  1011]: homepage 状态检测异常，异常信息：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="ge-Tl"]/input"}
+  (Session info: chrome=94.0.4606.71)
+Traceback (most recent call last):
+  File "D:\MaXin-Study\2021-10-3\FinalVersionAccountForum\core\SimulationProcess\specificProcess.py", line 975, in open_link
+    BloggerElement.blogger_post_element['imageClick_xpath3'])
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\17122\Envs\selenium_test\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="ge-Tl"]/input"}
+  (Session info: chrome=94.0.4606.71)
+
+[2021-10-28 22:13:18  INFO      BloggerTestSpider   119]: 帖子主页进入成功，主页：https://www.blogger.com/blog/posts/1810875049891350650！
+[2021-10-28 22:13:18  INFO      FBSimulateProcess   125]: 关闭浏览器!
+[2021-10-28 22:13:26  INFO      BloggerTestSpider   194]: 论坛发帖最后状态是state:RetCode.OTHER_ERROR
+[2021-10-28 22:13:26  INFO      BloggerTestSpider   204]: 论坛发帖异常失败
+[2021-10-28 22:17:03  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 22:17:03  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 22:17:03  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:17:03  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:17:05  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:17:18  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 22:17:31  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 22:17:31  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：evandean83612@gmail.com
+[2021-10-28 22:17:31  INFO      BloggerTestSpider   190]: 开始论坛发帖，Homepage:https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:17:34  INFO      BloggerTestSpider   114]: 开始论坛发帖，主页URL：https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:17:49  INFO      specificProcess   932]: 标题输入完成
+[2021-10-28 22:17:51  INFO      specificProcess   944]: 内容输入完成
+[2021-10-28 22:20:08  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 22:20:08  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 22:20:08  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:20:08  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:20:10  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:20:18  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 22:20:29  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 22:20:29  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：evandean83612@gmail.com
+[2021-10-28 22:20:29  INFO      BloggerTestSpider   190]: 开始论坛发帖，Homepage:https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:20:31  INFO      BloggerTestSpider   114]: 开始论坛发帖，主页URL：https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:20:45  INFO      specificProcess   932]: 标题输入完成
+[2021-10-28 22:20:47  INFO      specificProcess   944]: 内容输入完成
+[2021-10-28 22:21:20  INFO      specificProcess   985]: 图片输入完成
+[2021-10-28 22:21:25  INFO      specificProcess  1000]: 当前页面https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:21:25  INFO      specificProcess  1002]: 账号发帖完成
+[2021-10-28 22:21:25  INFO      BloggerTestSpider   119]: 帖子主页进入成功，主页：https://www.blogger.com/blog/posts/1810875049891350650！
+[2021-10-28 22:21:25  INFO      FBSimulateProcess   125]: 关闭浏览器!
+[2021-10-28 22:21:35  INFO      BloggerTestSpider   194]: 论坛发帖最后状态是state:RetCode.SUCCESS
+[2021-10-28 22:21:35  INFO      BloggerTestSpider   196]: 论坛发帖成功
+[2021-10-28 22:22:25  INFO      BloggerTestSpider   141]: 查网络环境……
+[2021-10-28 22:22:25  INFO      BloggerTestSpider   144]: 存在可用僵尸账号，账号：evandean83612@gmail.com
+[2021-10-28 22:22:25  INFO      FBSimulateProcess    65]: 启动谷歌浏览器
+[2021-10-28 22:22:25  INFO      FBSimulateProcess    66]: nt
+[2021-10-28 22:22:28  INFO      FBSimulateProcess   101]: 谷歌浏览器启动完成！
+[2021-10-28 22:22:35  INFO      FBSimulateProcess   484]: 开始注入cookie~~
+[2021-10-28 22:22:47  INFO      FBSimulateProcess   508]: cookie注入成功
+[2021-10-28 22:22:47  INFO      FBSimulateProcess   510]: 账号处于登录状态，账户：evandean83612@gmail.com
+[2021-10-28 22:22:47  INFO      BloggerTestSpider   190]: 开始论坛发帖，Homepage:https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:22:49  INFO      BloggerTestSpider   114]: 开始论坛发帖，主页URL：https://www.blogger.com/blog/posts/1810875049891350650
+[2021-10-28 22:23:03  INFO      specificProcess   932]: 标题输入完成
+[2021-10-28 22:23:05  INFO      specificProcess   944]: 内容输入完成

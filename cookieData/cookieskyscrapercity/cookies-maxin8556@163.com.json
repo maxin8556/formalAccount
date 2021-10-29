@@ -1,0 +1,99 @@
+{
+    "cookies": [
+        {
+            "domain": ".skyscrapercity.com",
+            "expiry": 1667886515,
+            "httpOnly": false,
+            "name": "__gads",
+            "path": "/",
+            "secure": false,
+            "value": "ID=2cfa72b9cb53aa55-22561d3599cc004e:T=1634190515:S=ALNI_MZ-cw14ZSpglV5iIlE3VE1xMSUZig"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "expiry": 1665726554,
+            "httpOnly": true,
+            "name": "xf_user",
+            "path": "/",
+            "secure": true,
+            "value": "1614468%2CpDFxJVRgqDQwCTT_Es4i4SdxffF4vGViT6kUYcqe"
+        },
+        {
+            "domain": ".skyscrapercity.com",
+            "expiry": 1697262555,
+            "httpOnly": false,
+            "name": "_ga",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.813129789.1634190515"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "expiry": 1634276915,
+            "httpOnly": false,
+            "name": "xf_Homepage_Billboard",
+            "path": "/",
+            "secure": true,
+            "value": "true"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "expiry": 1634192355,
+            "httpOnly": false,
+            "name": "lux_uid",
+            "path": "/",
+            "sameSite": "Lax",
+            "secure": false,
+            "value": "163419051056497825"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "httpOnly": false,
+            "name": "xf_csrf",
+            "path": "/",
+            "secure": true,
+            "value": "hsOgRgOwX7CKp8fk"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "expiry": 1634192355,
+            "httpOnly": false,
+            "name": "__rtgt_sid",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "kuqiu3x8sen074"
+        },
+        {
+            "domain": "www.skyscrapercity.com",
+            "httpOnly": true,
+            "name": "xf_session",
+            "path": "/",
+            "secure": true,
+            "value": "oWAKpwGXgLb9nyyC1-28hJZyJVXxleQB"
+        },
+        {
+            "domain": ".skyscrapercity.com",
+            "expiry": 1634276955,
+            "httpOnly": false,
+            "name": "_gid",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.828406808.1634190516"
+        },
+        {
+            "domain": ".www.skyscrapercity.com",
+            "expiry": 1634192305,
+            "httpOnly": true,
+            "name": "__cf_bm",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "qC9OeaxUMzNwqw5bxOg3KdhpKxSQkCyeqM7mpeW0l34-1634190505-0-ATDn1TutcKzs2I+LOCsx+kxyyz9VO3MRJP/Q7/SVu2xdB5wcnZg92mYoH+Yue2RKl43lrSH6SZ6V05186hyx+QueyDY/R/cHJj+/4QF+poly"
+        }
+    ],
+    "enable": true,
+    "name": "maxin8556@163.com",
+    "password": "maxin123",
+    "update_time": "2021-10-14 13:49:47"
+}

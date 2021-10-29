@@ -1,0 +1,70 @@
+{
+    "cookies": [
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1637856003,
+            "httpOnly": false,
+            "name": "email",
+            "path": "/",
+            "secure": true,
+            "value": "bmlhbGxhZGFtczkzMUBnbWFpbC5jb20="
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1635308271,
+            "httpOnly": false,
+            "name": "_gid",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.1480705725.1635221860"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1635225470,
+            "httpOnly": false,
+            "name": "across",
+            "path": "/",
+            "secure": true,
+            "value": "bxGUJVlr+zdqWZXRMKVoLuifj4djHKg1aNFKZE7PZ9lhnv1DfTMFA1DXMcwJElA2ZN3lIx6M5XZPCprOxUonxA=="
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1635221919,
+            "httpOnly": false,
+            "name": "_gat",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1698293871,
+            "httpOnly": false,
+            "name": "_ga",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.860692429.1635221860"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1635782404,
+            "httpOnly": false,
+            "name": "TempMember",
+            "path": "/",
+            "secure": true,
+            "value": "1a625b7b-247d-4b26-acd9-0418e3824a76"
+        },
+        {
+            "domain": "showwe.tw",
+            "httpOnly": true,
+            "name": "ASP.NET_SessionId",
+            "path": "/",
+            "secure": true,
+            "value": "d1qixdn4sbh2ufmjinqytuqh"
+        }
+    ],
+    "enable": true,
+    "name": "nialladams931@gmail.com",
+    "password": "bblove123",
+    "update_time": "2021-10-26 12:17:57"
+}

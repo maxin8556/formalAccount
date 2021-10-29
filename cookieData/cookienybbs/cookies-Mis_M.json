@@ -1,0 +1,132 @@
+{
+    "cookies": [
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1666766817,
+            "httpOnly": false,
+            "name": "sgER_5fe7_lastcheckfeed",
+            "path": "/",
+            "secure": false,
+            "value": "258820%7C1635230785"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1666766817,
+            "httpOnly": false,
+            "name": "sgER_5fe7_ulastactivity",
+            "path": "/",
+            "secure": false,
+            "value": "3eafvUD9O%2BMmX5Kqt1ZyrbM1OdDKKvSn%2FVFbOq%2BCK0sG5hCEM%2FK%2B"
+        },
+        {
+            "domain": ".nybbs.com",
+            "httpOnly": false,
+            "name": "sgER_5fe7_lip",
+            "path": "/",
+            "secure": false,
+            "value": "111.250.128.155%2C1635230699"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635230865,
+            "httpOnly": false,
+            "name": "_gat_gtag_UA_17197431_1",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".nybbs.com",
+            "httpOnly": true,
+            "name": "sgER_5fe7_auth",
+            "path": "/",
+            "secure": false,
+            "value": "97e06q3sOmqEEFFA835j5FeQtqkUDr906V8LmWzMDLrrbirZfbae%2Bg02WEo2tdwaKmdsCR0bD55xJuSk%2BcUUQBId8h8"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635317205,
+            "httpOnly": false,
+            "name": "_gid",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.668236313.1635230806"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635317217,
+            "httpOnly": false,
+            "name": "sgER_5fe7_sid",
+            "path": "/",
+            "secure": false,
+            "value": "QEECr6"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635231099,
+            "httpOnly": false,
+            "name": "sgER_5fe7_sendmail",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635230847,
+            "httpOnly": false,
+            "name": "sgER_5fe7_checkfollow",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635317196,
+            "httpOnly": false,
+            "name": "sgER_5fe7_pc_size_c",
+            "path": "/",
+            "secure": false,
+            "value": "0"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1637822796,
+            "httpOnly": false,
+            "name": "sgER_5fe7_lastvisit",
+            "path": "/",
+            "secure": false,
+            "value": "1635227164"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1635317217,
+            "httpOnly": false,
+            "name": "sgER_5fe7_lastact",
+            "path": "/",
+            "secure": false,
+            "value": "1635230785%09member.php%09logging"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1698302805,
+            "httpOnly": false,
+            "name": "_ga",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.449350548.1635230806"
+        },
+        {
+            "domain": ".nybbs.com",
+            "expiry": 1637822796,
+            "httpOnly": true,
+            "name": "sgER_5fe7_saltkey",
+            "path": "/",
+            "secure": false,
+            "value": "ovxVL073"
+        }
+    ],
+    "enable": true,
+    "name": "Mis_M",
+    "password": "Maxin123@",
+    "update_time": "2021-10-26 14:47:02"
+}

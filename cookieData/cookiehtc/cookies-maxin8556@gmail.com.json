@@ -1,0 +1,91 @@
+{
+    "cookies": [
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "sg",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "1635238853551"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "dc",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "%2FRAM"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "htcsense",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "%7B%22AuthKey%22%3A%22GHLyG9l51TN2Ntz04KvtLVHV9HDfrSM8CA8EmD0g9sdmcFy7hxpRG4w%2BnkZmIJOvP%2FyJXv9sACvWugcTGUxk92A7Eb%2BKUCTd4kgCoCahJpldwYA9pMGuMzO4Q2XP71%2F6g2gwxbu%2FQbiwpn5R6JskH8vmOo23jbAaTqedjIsInLcXURzxhjvgSF4R6POUt1%2F8Nz71gc73ufNGSSL0hzoyPA8fwML4kyxZOagsfmUulSrUE0UxepZRvVQSKKyT29EcT2TCISbtO1FzDbggnBRVxnQ81D5O%2BDbH7JOFysWVbfBhyUGItUNOr82Rx7pmptyIqJShdpzmpbgcvTYe2DvnitCLNWbZJ3e%2FlldCfgricjiYEb7LqoilSB2IXt4YfpHdZlQFV3gM76DrcD3koE2kQPHb6DlRCM7tw0liaVGfbrN5H6wqC%2F%2Ft0wHaoppDC4F0%22%2C%22Property%22%3A%22htc%22%2C%22AccountId%22%3A%2230875ff6-0b98-4ae2-bb56-04964322f00d%22%2C%22IsEmailVerified%22%3Atrue%2C%22ProfileUri%22%3A%22https%3A%2F%2Faccount-profile.htcvive.com%2FRAM%2FSS%2F%22%2C%22Life%22%3A86400000%7D"
+        },
+        {
+            "domain": ".htcvive.com",
+            "expiry": 1666774856,
+            "httpOnly": false,
+            "name": "csdataBid",
+            "path": "/",
+            "sameSite": "Strict",
+            "secure": true,
+            "value": "82a4850125736a44a69b18026f03d9d93a7a93e7fe038d5691183aaab843f9ae"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "sn",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "28fcb6d9-9b9b-4843-a92c-20545ce3a998"
+        },
+        {
+            "domain": ".htcvive.com",
+            "expiry": 1635843620,
+            "httpOnly": false,
+            "name": "lc",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "en_US"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "htc_sdk",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "%7B%22org_profile_url%22%3A%22https%3A%2F%2Faccount.viveport.com%22%7D"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "se",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "1635325253551"
+        },
+        {
+            "domain": "account.htcvive.com",
+            "httpOnly": false,
+            "name": "3pcac",
+            "path": "/",
+            "sameSite": "None",
+            "secure": true,
+            "value": "pass"
+        }
+    ],
+    "enable": true,
+    "name": "maxin8556@gmail.com",
+    "password": "Maxin123@",
+    "update_time": "2021-10-26 17:01:00"
+}

@@ -1,0 +1,70 @@
+{
+    "cookies": [
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1637337606,
+            "httpOnly": false,
+            "name": "email",
+            "path": "/",
+            "secure": true,
+            "value": "bWF4aW44NTU2QDE2My5jb20="
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1634798338,
+            "httpOnly": false,
+            "name": "_gid",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.324835081.1634711923"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1634715539,
+            "httpOnly": false,
+            "name": "across",
+            "path": "/",
+            "secure": true,
+            "value": "jYwuXws7EsrfVg4z8BAnYKyoHYQlE/9qMEzwdS9UFfmDw3hyfOObT8mtdiEBlUN95WW0F6w7t2vbZirubRoL9w=="
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1634711983,
+            "httpOnly": false,
+            "name": "_gat",
+            "path": "/",
+            "secure": false,
+            "value": "1"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1697783938,
+            "httpOnly": false,
+            "name": "_ga",
+            "path": "/",
+            "secure": false,
+            "value": "GA1.2.1231981955.1634711923"
+        },
+        {
+            "domain": ".showwe.tw",
+            "expiry": 1635264006,
+            "httpOnly": false,
+            "name": "TempMember",
+            "path": "/",
+            "secure": true,
+            "value": "3405620f-ef03-4235-bca3-d86be0d4a9c7"
+        },
+        {
+            "domain": "showwe.tw",
+            "httpOnly": true,
+            "name": "ASP.NET_SessionId",
+            "path": "/",
+            "secure": true,
+            "value": "uyuho1bftuasjycsvupet2xk"
+        }
+    ],
+    "enable": true,
+    "name": "maxin8556@163.com",
+    "password": "Maxin123@",
+    "update_time": "2021-10-20 14:39:14"
+}
